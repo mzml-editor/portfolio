@@ -374,6 +374,7 @@ const Portfolio = () => {
                   className="relative aspect-video bg-black cursor-pointer overflow-hidden group/video"
                   onClick={() => openModal(PROFILE.showreel)}
                 >
+        
                   <img 
                     src={getVideoThumbnail(PROFILE.showreel)}
                     alt="Showreel"
@@ -389,6 +390,15 @@ const Portfolio = () => {
                       </div>
                     </div>
                   </div>
+                </div>
+                <div className="p-5 flex justify-center border-t border-white/10">
+                 <a
+                  href="#contact"
+                  className="group inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-violet-600 to-fuchsia-600 hover:from-violet-500 hover:to-fuchsia-500 rounded-2xl font-bold transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-violet-500/40"
+                 >
+                  ᯓ➤ Book a call
+                  <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                 </a>
                 </div>
               </div>
             </div>
